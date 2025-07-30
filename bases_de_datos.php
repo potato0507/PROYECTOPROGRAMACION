@@ -2,11 +2,12 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Prueba CSV</title>
+  <title>Bases de datos</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
    <link rel="stylesheet" href="css/estilos.css">
+   <link rel="icon" href="img/ico.png" >
     <style>
     .file-card {
       border: 1px solid #ccc;
@@ -36,7 +37,7 @@
     <?php include 'layout/nav.php' ?>
   </header>
  <div class="container py-5">
-    <h2 class="text-center mb-4 pt-5">Archivos de Datos Energéticos</h2>
+    <h2 class="text-center mb-4 pt-5 text-primary">Archivos de Datos Energéticos</h2>
 
     <!-- Vista de íconos tipo archivo -->
     <div class="row g-4 mb-5" id="file-icons">
@@ -59,6 +60,6 @@
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script src="bases_de_datos.js"></script>
+  <script src="js/bases_de_datos.js"></script>
 </body>
 </html>

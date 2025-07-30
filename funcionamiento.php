@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Title</title>
+    <title>Funcionamiento</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -17,15 +17,16 @@
         crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
          <link rel="stylesheet" href="css/estilos.css">
+         <link rel="icon" href="img/ico.png" >
 </head>
 
 <body>
     <header>
         <?php include 'layout/nav.php' ?>
     </header>
-    <main>
+    <main class="pt-5 pt-md-5 pt-lg-5" style="padding-top: 80px;">
        <div class="container py-5">
-  <h2 class="text-center mb-5 text-primary mt-3">Funcionamiento de una Central Hidroeléctrica</h2>
+  <h2 class="text-center mb-5 text-primary mt-3 pt-3">Funcionamiento de una Central Hidroeléctrica</h2>
 
   <div class="row align-items-center g-5">
     <!-- Imagen -->

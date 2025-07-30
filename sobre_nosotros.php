@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Sobre nosotros</title>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -12,15 +12,17 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
    <link rel="stylesheet" href="css/estilos.css">
+   <link rel="icon" href="img/ico.png" >
 </head>
 
 <body class="d-flex flex-column min-vh-100">
   <header>
     <?php include 'layout/nav.php' ?>
   </header>
-  <main>
+  <main class="pt-5 pt-md-5 pt-lg-5" style="padding-top: 80px;">
 
-    <section id="sobre-nosotros" class="sobre-nosotros contenedor">
+
+    <section id="sobre-nosotros" class="sobre-nosotros contenedor ">
       <h2 class="titulo-seccion text-primary">Sobre Nosotros</h2>
       <div class="bloque">
         <h3>Portada</h3>

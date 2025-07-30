@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Title</title>
+    <title>Beneficios</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -17,13 +17,14 @@
         crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/ico.png" >
 </head>
 
 <body>
     <header>
         <?php include 'layout/nav.php' ?>
     </header>
-    <main>
+    <main class="pt-5 pt-md-5 pt-lg-5" style="padding-top: 80px;">
 
         <body class="bg-light text-dark">
 
