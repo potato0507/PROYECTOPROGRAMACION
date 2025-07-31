@@ -65,9 +65,9 @@
       <div class="mb-5">
         <h3 class="h4 text-dark fw-semibold mb-3">Descargar Informe</h3>
         <p>Puedes descargar el informe final del proyecto haciendo clic en el siguiente botón:</p>
-        <a href="INFORME-FINAL-DEL-PROYECTO-TALENTO-TECH2.pdf" class="btn btn-primary" download>
-          <i class="bi bi-file-earmark-pdf"></i> Descargar Informe PDF
-        </a>
+          <a href="INFORME-FINAL-DEL-PROYECTO-TALENTO-TECH2.pdf" class="btn btn-primary" target="_blank">
+            <i class="bi bi-file-earmark-pdf"></i> Ver Informe PDF
+          </a>
       </div>
     </section>
     
