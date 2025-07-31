@@ -13,33 +13,36 @@
       <div class="col-md-4">
         <ul class="list-unstyled d-flex justify-content-center gap-3 mb-0">
           <li>
-            <a href="sobre_nosotros.php" class="text-white text-decoration-none" 
-               onmouseover="this.style.textDecoration='underline'" 
-               onmouseout="this.style.textDecoration='none'">
+            <a href="sobre_nosotros.php" class="text-white text-decoration-none"
+              onmouseover="this.style.textDecoration='underline'"
+              onmouseout="this.style.textDecoration='none'">
               Sobre Nosotros
             </a>
           </li>
         </ul>
       </div>
 
-      <!-- Redes sociales -->
-      <div class="col-md-4 text-center text-md-end">
-        <a href="https://facebook.com" style="text-decoration:none;" target="_blank" title="Facebook" class="text-white fs-5 me-2">
-          <i class="bi bi-facebook"></i>
-        </a>
-        <a href="https://twitter.com" style="text-decoration:none;" target="_blank" title="Twitter" class="text-white fs-5 me-2">
-          <i class="bi bi-twitter-x"></i>
-        </a>
-        <a href="https://instagram.com" style="text-decoration:none;" target="_blank" title="Instagram" class="text-white fs-5 me-2">
-          <i class="bi bi-instagram"></i>
-        </a>
-        <a href="https://linkedin.com" style="text-decoration:none;" target="_blank" title="LinkedIn" class="text-white fs-5 me-2">
-          <i class="bi bi-linkedin"></i>
-        </a>
-        <a href="mailto:contacto@hidroenergia.com" style="text-decoration:none;" title="Correo" class="text-white fs-5">
-          <i class="bi bi-envelope-fill"></i>
-        </a>
-      </div>
+     <!-- Redes sociales -->
+<div class="col-md-4 text-center text-md-end">
+  <div class="d-flex justify-content-center justify-content-md-end align-items-center">
+    <a href="https://facebook.com" target="_blank" title="Facebook" class="text-white fs-5 px-1">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" title="Twitter" class="text-white fs-5 px-0">
+      <i class="bi bi-twitter-x"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" title="Instagram" class="text-white fs-5 px-1">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://linkedin.com" target="_blank" title="LinkedIn" class="text-white fs-5 px-1">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="mailto:contacto@hidroenergia.com" title="Correo" class="text-white fs-5 px-1">
+      <i class="bi bi-envelope-fill"></i>
+    </a>
+  </div>
+</div>
+
 
     </div>
 

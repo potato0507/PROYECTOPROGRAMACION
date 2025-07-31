@@ -11,43 +11,95 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto text-center">
+
         <li class="nav-item">
-          <a class="nav-link text-white" href="index.php">Inicio</a>
+          <a class="nav-link text-white" href="index.php"
+            style="color: white; transition: color 0.3s;"
+            onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important')"
+            onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important')">
+            Inicio
+          </a>
         </li>
 
-        <!-- Dropdown Fundamentos con fondo azul y letras blancas -->
+        <!-- Dropdown Fundamentos -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" id="fundamentosDropdown" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
+            data-bs-toggle="dropdown" aria-expanded="false"
+            style="color: white; transition: color 0.3s;"
+            onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important')"
+            onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important')">
             Fundamentos
           </a>
           <ul class="dropdown-menu text-center" aria-labelledby="fundamentosDropdown" style="background-color: #0369A1; border: none;">
             <li>
               <a class="dropdown-item text-white fw-semibold" href="historia.php"
-                style="transition: background-color 0.3s;"
-                onmouseover="this.style.backgroundColor='#0284C7'"
-                onmouseout="this.style.backgroundColor='transparent'">
+                style="transition: color 0.3s, background-color 0.3s;"
+                onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important'); this.style.backgroundColor='#0284C7'"
+                onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important'); this.style.backgroundColor='transparent'">
                 Historia
               </a>
             </li>
             <li>
               <a class="dropdown-item text-white fw-semibold" href="funcionamiento.php"
-                style="transition: background-color 0.3s;"
-                onmouseover="this.style.backgroundColor='#0284C7'"
-                onmouseout="this.style.backgroundColor='transparent'">
+                style="transition: color 0.3s, background-color 0.3s;"
+                onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important'); this.style.backgroundColor='#0284C7'"
+                onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important'); this.style.backgroundColor='transparent'">
                 Funcionamiento
               </a>
             </li>
           </ul>
         </li>
 
+        <!-- Enlaces restantes con hover funcional -->
+        <li class="nav-item">
+          <a class="nav-link text-white" href="beneficios.php"
+            style="color: white; transition: color 0.3s;"
+            onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important')"
+            onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important')">
+            Beneficios
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="impacto_ambiental.php"
+            style="color: white; transition: color 0.3s;"
+            onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important')"
+            onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important')">
+            Impacto ambiental
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="dashboard.php"
+            style="color: white; transition: color 0.3s;"
+            onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important')"
+            onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important')">
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="calculadora.php"
+            style="color: white; transition: color 0.3s;"
+            onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important')"
+            onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important')">
+            Calculadora
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="bases_de_datos.php"
+            style="color: white; transition: color 0.3s;"
+            onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important')"
+            onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important')">
+            Bases de datos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="sobre_nosotros.php"
+            style="color: white; transition: color 0.3s;"
+            onmouseover="this.style.color='#F97316'; this.style.setProperty('color', '#F97316', 'important')"
+            onmouseout="this.style.color='white'; this.style.setProperty('color', 'white', 'important')">
+            Sobre nosotros
+          </a>
+        </li>
 
-        <li class="nav-item"><a class="nav-link text-white" href="beneficios.php">Beneficios</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="impacto_ambiental.php">Impacto ambiental</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="dashboard.php">Dashboard</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="calculadora.php">Calculadora</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="bases_de_datos.php">Bases de datos</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="sobre_nosotros.php">Sobre nosotros</a></li>
       </ul>
     </div>
   </div>
