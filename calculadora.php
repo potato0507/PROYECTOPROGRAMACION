@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Calculadora</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,7 +16,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
         crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<link rel="stylesheet" href="css/estilos.css">
+
+<link rel="icon" href="img/ico.png" >
 </head>
 
 <body class="d-flex flex-column min-vh-100">

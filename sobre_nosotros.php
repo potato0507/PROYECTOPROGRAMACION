@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Sobre nosotros</title>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,36 +11,63 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-   <link rel="stylesheet" href="css/estilos.css">
+  
+   <link rel="icon" href="img/ico.png" >
 </head>
 
 <body class="d-flex flex-column min-vh-100">
   <header>
     <?php include 'layout/nav.php' ?>
   </header>
-  <main>
 
-    <section id="sobre-nosotros" class="sobre-nosotros contenedor">
-      <h2 class="titulo-seccion text-primary">Sobre Nosotros</h2>
-      <div class="bloque">
-        <h3>Portada</h3>
+  <main class="flex-grow-1 py-5">
+    <section id="sobre-nosotros" class="container scroll-margin-top mt-5 pt-5">
+      <h2 class="text-center text-primary mb-5 display-5 fw-bold">Sobre Nosotros</h2>
+
+      <div class="mb-5">
+        <h3 class="h4 text-dark fw-semibold mb-3">Portada</h3>
         <p><strong>Transición Energética Justa</strong><br>
-        Impulsando un futuro sostenible a través de la energía limpia.</p>
-        </p>Realizado por: Luis Felipe Chacon - César Osorio - Anderson Romero - Duverney Gaviria</p>
-        </p> Proyecto Talento Tech - Región 2</p>
-        </p>Pereira, Risaralda</p>
+          Impulsando un futuro sostenible a través de la energía limpia.
+        </p>
+        <p>Realizado por: Luis Felipe Chacón, César Osorio, Anderson Romero, Duverney Gaviria</p>
+        <p>Proyecto Talento Tech - Región 2</p>
+        <p>Pereira, Risaralda</p>
       </div>
-      <div class="bloque">
-        <h3>Introducción</h3>
-       <p>Este aplicativo web tiene como objetivo promover la transición energética justa al ofrecer una plataforma interactiva que permita explorar, analizar y comprender los datos históricos sobre energías renovables. Mediante visualizaciones y herramientas simples, buscamos concientizar sobre el papel fundamental de las fuentes limpias en la descarbonización del planeta.</p>
+
+      <div class="mb-5">
+        <h3 class="h4 text-dark fw-semibold mb-3">Introducción</h3>
+        <p>
+          Este aplicativo web tiene como objetivo promover la transición energética justa al ofrecer una
+          plataforma interactiva que permita explorar, analizar y comprender los datos históricos sobre energías
+          renovables. Mediante visualizaciones y herramientas simples, buscamos concientizar sobre el papel
+          fundamental de las fuentes limpias en la descarbonización del planeta.
+        </p>
       </div>
-      <div class="bloque">
-        <h3>Desarrollo del Proyecto</h3>
-        <p>El proyecto incluye una página informativa sobre energía hidráulica, la carga del conjunto de datos históricos globales (1965–2022), un formulario para calcular el porcentaje de energía renovable en el consumo eléctrico, y un dashboard interactivo con visualizaciones sobre la producción y consumo de energía renovable.</p>
+
+      <div class="mb-5">
+        <h3 class="h4 text-dark fw-semibold mb-3">Desarrollo del Proyecto</h3>
+        <p>
+          El proyecto incluye una página informativa sobre energía hidráulica, la carga del conjunto de datos
+          históricos globales (1965–2022), un formulario para calcular el porcentaje de energía renovable en el
+          consumo eléctrico, y un dashboard interactivo con visualizaciones sobre la producción y consumo de
+          energía renovable.
+        </p>
       </div>
-      <div class="bloque">
-        <h3>Resultados Esperados</h3>
-        <p>Esperamos que esta herramienta facilite el acceso a la información sobre energías limpias, fomente decisiones conscientes sobre el consumo energético y apoye iniciativas educativas y comunitarias orientadas hacia un futuro más sostenible.</p>
+
+      <div class="mb-5">
+        <h3 class="h4 text-dark fw-semibold mb-3">Resultados Esperados</h3>
+        <p>
+          Esperamos que esta herramienta facilite el acceso a la información sobre energías limpias, fomente
+          decisiones conscientes sobre el consumo energético y apoye iniciativas educativas y comunitarias
+          orientadas hacia un futuro más sostenible.
+        </p>
+      </div>
+      <div class="mb-5">
+        <h3 class="h4 text-dark fw-semibold mb-3">Descargar Informe</h3>
+        <p>Puedes descargar el informe final del proyecto haciendo clic en el siguiente botón:</p>
+        <a href="INFORME-FINAL-DEL-PROYECTO-TALENTO-TECH2.pdf" class="btn btn-primary" download>
+          <i class="bi bi-file-earmark-pdf"></i> Descargar Informe PDF
+        </a>
       </div>
     </section>
     
